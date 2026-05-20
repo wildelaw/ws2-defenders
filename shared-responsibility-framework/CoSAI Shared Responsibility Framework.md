@@ -2,104 +2,43 @@
 
 OASIS Open Project : [Coalition for Secure AI (CoSAI)](https://github.com/cosai-oasis) [Workstream 2: AI Shared Responsibility Framework](https://github.com/cosai-oasis/ws2-defenders)
 
-Status: Approved by the CoSAI Project Governing Board on 19 May 2026
+Status: Under review by the CoSAI Project Governing Board on 19 May 2026
 
 <html>
-<style>
-    /* Global container styling for centering and max width */
-    .diagram-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        max-width: 600px; /* Adjust width as needed */
-        font-family: Arial, sans-serif;
-        margin: 20px auto;
-    }
-    /* Styling for each box */
-    .box {
-        width: 100%;
-        padding: 20px 25px;
-        margin-bottom: 15px; /* Space between boxes */
-        border-radius: 10px;
-        box-sizing: border-box;
-        text-align: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s;
-        position: relative; /* Important for arrows/separators */
-    }
-    /* Color mapping (matching the image) */
-    .color-green { background-color: #5ca368; color: white; }
-    .color-blue-dark { background-color: #4a90e2; color: white; }
-    .color-orange { background-color: #ff9933; color: white; }
-    .color-red { background-color: #e85d60; color: white; }
-    .color-purple { background-color: #6a5acd; color: white; }
-    /* Styling for Titles and Text */
-    .title {
-        font-size: 1.8em;
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-    .subtitle {
-        font-size: 0.9em;
-        opacity: 0.8;
-        display: block;
-        margin-bottom: 15px;
-    }
-    .description {
-        font-size: 1em;
-        margin-top: 15px;
-        padding-top: 10px;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        display: block;
-    }
-    /* Styling the arrows/separators */
-    .arrow-separator {
-        width: 3px;
-        height: 20px; /* Adjust height to match the margin space */
-        background-color: #999;
-        margin-bottom: 5px; /* Overlap the box margin slightly for connection effect */
-        display: block;
-    }
-    /* Specific adjustments for the top/bottom */
-    .diagram-container:last-child {
-        margin-bottom: 0;
-    }
-</style>
-<div class="diagram-container">
+<div class="diagram-container" style="display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 600px; font-family: Arial, sans-serif; margin: 20px auto;">
     <!-- Box 1: AI Business & Usage -->
-    <div class="box color-green">
-        <div class="title">AI Business & Usage</div>
-        <span class="subtitle">(C-Suite/Governance)</span>
-        <div class="description">Governance, Strategy, Compliance</div>
+    <div class="box color-green" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #5ca368; color: white;">
+        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Business & Usage</div>
+        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(C-Suite/Governance)</span>
+        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Governance, Strategy, Compliance</div>
     </div>
-    <div class="arrow-separator"></div>
+    <div class="arrow-separator" style="width: 3px; height: 20px; background-color: #999; margin-bottom: 5px; display: block;"></div>
     <!-- Box 2: AI Information -->
-    <div class="box color-blue-dark">
-        <div class="title">AI Information</div>
-        <span class="subtitle">(Data Owners)</span>
-        <div class="description">Data Management, Quality, Privacy</div>
+    <div class="box color-blue-dark" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #4a90e2; color: white;">
+        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Information</div>
+        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(Data Owners)</span>
+        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Data Management, Quality, Privacy</div>
     </div>
-    <div class="arrow-separator"></div>
+    <div class="arrow-separator" style="width: 3px; height: 20px; background-color: #999; margin-bottom: 5px; display: block;"></div>
     <!-- Box 3: AI Application -->
-    <div class="box color-orange">
-        <div class="title">AI Application</div>
-        <span class="subtitle">(Dev Teams)</span>
-        <div class="description">Development, Integration, Testing</div>
+    <div class="box color-orange" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #ff9933; color: white;">
+        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Application</div>
+        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(Dev Teams)</span>
+        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Development, Integration, Testing</div>
     </div>
-    <div class="arrow-separator"></div>
+    <div class="arrow-separator" style="width: 3px; height: 20px; background-color: #999; margin-bottom: 5px; display: block;"></div>
     <!-- Box 4: AI Platform -->
-    <div class="box color-red">
-        <div class="title">AI Platform</div>
-        <span class="subtitle">(Platform Providers)</span>
-        <div class="description">Infrastructure, APIs, Tooling</div>
+    <div class="box color-red" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #e85d60; color: white;">
+        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Platform</div>
+        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(Platform Providers)</span>
+        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Infrastructure, APIs, Tooling</div>
     </div>
-    <div class="arrow-separator"></div>
+    <div class="arrow-separator" style="width: 3px; height: 20px; background-color: #999; margin-bottom: 5px; display: block;"></div>
     <!-- Box 5: AI Model Provider -->
-    <div class="box color-purple">
-        <div class="title">AI Model Provider</div>
-        <span class="subtitle">(Supply Chain)</span>
-        <div class="description">Models, Training, Supply Chain</div>
+    <div class="box color-purple" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #6a5acd; color: white;">
+        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Model Provider</div>
+        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(Supply Chain)</span>
+        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Models, Training, Supply Chain</div>
     </div>
 </div>
 </html>
@@ -224,249 +163,143 @@ Depending on the solution operating model, IaaS, PaaS, or SaaS, the solution lay
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>CoSAI 5-Layer AI Shared Responsibility Matrix</title>
-   <style>
-       body {
-           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-           margin: 20px;
-       }
-       .container {
-           max-width: 1200px;
-           margin: 0 auto;
-           background: white;
-           border-radius: 8px;
-           box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-           padding: 30px;
-       }
-       h1 {
-           color: #2c3e50;
-           text-align: center;
-           margin-bottom: 30px;
-           font-size: 24px;
-       }
-       .responsibility-table {
-           width: 100%;
-           border-collapse: collapse;
-           margin-bottom: 30px;
-           font-size: 14px;
-       }
-       .layer-header {
-           text-orientation: mixed;
-           padding: 15px 8px;
-           font-weight: bold;
-           color: white;
-           text-align: center;
-           width: 120px;
-           font-size: 16px;
-       }
-       .business-vertical { background-color: #27ae60; }
-       .information-usage { background-color: #16a085; }
-       .ai-application { background-color: #f39c12; }
-       .ai-platform { background-color: #3498db; }
-       .ai-foundation { background-color: #9b59b6; }
-       .capability-cell {
-           padding: 12px 15px;
-           border: 1px solid #ddd;
-           background-color: #f8f9fa;
-           color: #34495e;
-           font-weight: 500;
-           width: 300px;
-       }
-       .responsibility-cell {
-           width: 120px;
-           height: 25px;
-           border: 1px solid #ddd;
-           position: relative;
-       }
-       .service-header {
-           background-color: #34495e;
-           color: white;
-           text-align: center;
-           padding: 15px;
-           font-weight: bold;
-           font-size: 14px;
-       }
-       /* Responsibility patterns */
-       .customer {
-           background-color: #3498db;
-       }
-       .provider {
-           background-color: #2c3e50;
-       }
-       .shared {
-           background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);
-       }
-       .model-dependent {
-           background: linear-gradient(135deg, #f1c40f 50%, #2c3e50 50%);
-       }
-       .legend {
-           display: flex;
-           justify-content: center;
-           gap: 30px;
-           margin-top: 20px;
-           flex-wrap: wrap;
-       }
-       .legend-item {
-           display: flex;
-           align-items: center;
-           gap: 10px;
-       }
-       .legend-color {
-           width: 30px;
-           height: 20px;
-           border: 1px solid #ddd;
-       }
-       .context-note {
-           background-color: #e8f4f8;
-           color: #34495e;
-           border-left: 4px solid #3498db;
-           padding: 15px;
-           margin: 20px 0;
-           border-radius: 4px;
-       }
-       @media (max-width: 768px) {
-           .container { padding: 15px; }
-           .responsibility-table { font-size: 12px; }
-           .layer-header { width: 80px; font-size: 14px; }
-           .capability-cell { width: 200px; }
-           .responsibility-cell { width: 80px; }
-       }
-   </style>
 </head>
-<body>
-   <div class="container">
-       <h1>CoSAI 5-Layer AI Shared Responsibility Matrix</h1>
-       <table class="responsibility-table">
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px;">
+   <div style="max-width: 1200px; margin: 0 auto; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 30px;">
+       <h1 style="color: #2c3e50; text-align: center; margin-bottom: 30px; font-size: 24px;">CoSAI 5-Layer AI Shared Responsibility Matrix</h1>
+       <table style="width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 14px;">
            <thead>
                <tr>
                    <th style="border: none;"></th>
                    <th style="border: none;"></th>
-                   <th class="service-header">IaaS<br>(Infrastructure as a Service)</th>
-                   <th class="service-header">AI &amp; Agent<br>PaaS<br>(Platform as a Service)</th>
-                   <th class="service-header">AI Enabled<br>SaaS<br>(Software as a Service)</th>
+                   <th style="background-color: #34495e; color: white; text-align: center; padding: 15px; font-weight: bold; font-size: 14px;">IaaS<br>(Infrastructure as a Service)</th>
+                   <th style="background-color: #34495e; color: white; text-align: center; padding: 15px; font-weight: bold; font-size: 14px;">AI &amp; Agent<br>PaaS<br>(Platform as a Service)</th>
+                   <th style="background-color: #34495e; color: white; text-align: center; padding: 15px; font-weight: bold; font-size: 14px;">AI Enabled<br>SaaS<br>(Software as a Service)</th>
                </tr>
            </thead>
            <tbody>
                <!-- AI Business Verticals -->
                <tr>
-                   <td rowspan="3" class="layer-header business-vertical">AI Usage & Business Verticals<br>(C-Suite)</td>
-                   <td class="capability-cell">Capabilities & Business Strategy</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell customer"></td>
+                   <td rowspan="3" style="text-orientation: mixed; padding: 15px 8px; font-weight: bold; color: white; text-align: center; width: 120px; font-size: 16px; background-color: #27ae60;">AI Usage & Business Verticals<br>(C-Suite)</td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Capabilities & Business Strategy</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
                </tr>
                <tr>
-                   <td class="capability-cell">Processes & Governance</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell customer"></td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Processes & Governance</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
                </tr>
                <tr>
-                   <td class="capability-cell">Business Units & Accountability</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell shared"></td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Business Units & Accountability</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
                </tr>
                <!-- AI Information -->
                <tr>
-                   <td rowspan="3" class="layer-header information-usage">AI Information<br>(Data Owners)</td>
-                   <td class="capability-cell">Master Data Management</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell shared"></td>
-               </tr>
-                   <td class="capability-cell">Privacy Controls & Policies</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell shared"></td>
-                   <td class="responsibility-cell shared"></td>
+                   <td rowspan="3" style="text-orientation: mixed; padding: 15px 8px; font-weight: bold; color: white; text-align: center; width: 120px; font-size: 16px; background-color: #16a085;">AI Information<br>(Data Owners)</td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Master Data Management</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
                </tr>
                <tr>
-                   <td class="capability-cell">AI Training Data</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell shared"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Privacy Controls & Policies</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
+               </tr>
+               <tr>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">AI Training Data</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
                <!-- AI Application -->
                <tr>
-                   <td rowspan="3" class="layer-header ai-application">AI Application<br>(Dev Teams)</td>
-                   <td class="capability-cell">Agents & Orchestration Models</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell shared"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td rowspan="3" style="text-orientation: mixed; padding: 15px 8px; font-weight: bold; color: white; text-align: center; width: 120px; font-size: 16px; background-color: #f39c12;">AI Application<br>(Dev Teams)</td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Agents & Orchestration Models</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
                <tr>
-                   <td class="capability-cell">APIs & Fine-tuned Models</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell shared"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">APIs & Fine-tuned Models</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
                <tr>
-                   <td class="capability-cell">Application Platforms</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell provider"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Application Platforms</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
                <!-- AI Platform -->
                <tr>
-                   <td rowspan="3" class="layer-header ai-platform">AI Platform<br>(Platform Providers)</td>
-                   <td class="capability-cell">Guardrails & Safety Systems</td>
-                   <td class="responsibility-cell shared"></td>
-                   <td class="responsibility-cell shared"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td rowspan="3" style="text-orientation: mixed; padding: 15px 8px; font-weight: bold; color: white; text-align: center; width: 120px; font-size: 16px; background-color: #3498db;">AI Platform<br>(Platform Providers)</td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Guardrails & Safety Systems</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
                <tr>
-                   <td class="capability-cell">Compute Infrastructure</td>
-                   <td class="responsibility-cell shared"></td>
-                   <td class="responsibility-cell provider"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Compute Infrastructure</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
                <tr>
-                   <td class="capability-cell">LLM Routers & Gateways</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell provider"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">LLM Routers & Gateways</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
                <!-- AI Foundation -->
                <tr>
-                   <td rowspan="3" class="layer-header ai-foundation">AI Model Provider<br>(Supply Chain)</td>
-                   <td class="capability-cell">Model Distribution</td>
-                   <td class="responsibility-cell customer"></td>
-                   <td class="responsibility-cell provider"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td rowspan="3" style="text-orientation: mixed; padding: 15px 8px; font-weight: bold; color: white; text-align: center; width: 120px; font-size: 16px; background-color: #9b59b6;">AI Model Provider<br>(Supply Chain)</td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Model Distribution</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #3498db;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
                <tr>
-                   <td class="capability-cell">Model Governance</td>
-                   <td class="responsibility-cell model-dependent"></td>
-                   <td class="responsibility-cell provider"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Model Governance</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #f1c40f 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
                <tr>
-                   <td class="capability-cell">Foundation Models</td>
-                   <td class="responsibility-cell model-dependent"></td>
-                   <td class="responsibility-cell model-dependent"></td>
-                   <td class="responsibility-cell provider"></td>
+                   <td style="padding: 12px 15px; border: 1px solid #ddd; background-color: #f8f9fa; color: #34495e; font-weight: 500; width: 300px;">Foundation Models</td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #f1c40f 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background: linear-gradient(135deg, #f1c40f 50%, #2c3e50 50%);"></td>
+                   <td style="width: 120px; height: 25px; border: 1px solid #ddd; position: relative; background-color: #2c3e50;"></td>
                </tr>
            </tbody>
        </table>
-       <div class="legend">
-           <div class="legend-item">
-               <div class="legend-color provider"></div>
+       <div style="display: flex; justify-content: center; gap: 30px; margin-top: 20px; flex-wrap: wrap;">
+           <div style="display: flex; align-items: center; gap: 10px;">
+               <div style="width: 30px; height: 20px; border: 1px solid #ddd; background-color: #2c3e50;"></div>
                <span>Provider</span>
            </div>
-           <div class="legend-item">
-               <div class="legend-color shared"></div>
+           <div style="display: flex; align-items: center; gap: 10px;">
+               <div style="width: 30px; height: 20px; border: 1px solid #ddd; background: linear-gradient(135deg, #3498db 50%, #2c3e50 50%);"></div>
                <span>Shared</span>
            </div>
-           <div class="legend-item">
-               <div class="legend-color customer"></div>
+           <div style="display: flex; align-items: center; gap: 10px;">
+               <div style="width: 30px; height: 20px; border: 1px solid #ddd; background-color: #3498db;"></div>
                <span>Customer</span>
            </div>
-           <div class="legend-item">
-               <div class="legend-color model-dependent"></div>
+           <div style="display: flex; align-items: center; gap: 10px;">
+               <div style="width: 30px; height: 20px; border: 1px solid #ddd; background: linear-gradient(135deg, #f1c40f 50%, #2c3e50 50%);"></div>
                <span>Model Dependent</span>
            </div>
        </div>
-       <div class="context-note">
-           <strong>Key Insights for Auditors & Stakeholders:</strong>
+       <div style="background-color: #e8f4f8; color: #34495e; border-left: 4px solid #3498db; padding: 15px; margin: 20px 0; border-radius: 4px;">
+           <strong>Key Insights for Auditors &amp; Stakeholders:</strong>
            <ul style="margin-top: 10px;">
                <li><strong>IaaS:</strong> Maximum customer responsibility, especially for governance and application layers</li>
                <li><strong>AI-PaaS:</strong> Balanced shared responsibility model with provider managing AI platform infrastructure</li>
@@ -1059,437 +892,139 @@ I.e. the person or data steward responsible for the [‘state’ of the inputs](
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prompt Security Responsibility - CoSAI Five-Layer Framework</title>
-  <style>
-    .conatiner {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #eceff1;
-      color: #263238;
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    .header {
-      margin-bottom: 24px;
-    }
-    .header h1 {
-      font-size: 28px;
-      font-weight: 700;
-      margin-bottom: 8px;
-    }
-    .header h1 span {
-      font-size: 14px;
-      font-weight: normal;
-      margin-left: 12px;
-      color: #607d8b;
-    }
-    .header p {
-      font-size: 14px;
-      color: #546e7a;
-    }
-    .legend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      margin-bottom: 24px;
-      padding: 16px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 12px;
-    }
-    .legend-color {
-      width: 20px;
-      height: 20px;
-      border: 1px solid #37474f;
-      border-radius: 3px;
-    }
-    .legend-defense {
-      width: 20px;
-      height: 20px;
-      background: #d32f2f;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 10px;
-      color: white;
-    }
-    .models-grid {
-      display: flex;
-      gap: 16px;
-      overflow-x: auto;
-      padding-bottom: 16px;
-    }
-    .model-column {
-      flex: 1;
-      min-width: 380px;
-    }
-    .model-header {
-      background: #1565c0;
-      color: white;
-      padding: 12px 16px;
-      text-align: center;
-      font-weight: bold;
-      font-size: 16px;
-      border-radius: 8px 8px 0 0;
-    }
-    .model-subheader {
-      background: #1976d2;
-      color: white;
-      padding: 6px;
-      text-align: center;
-      font-size: 11px;
-    }
-    .model-content {
-      border: 2px solid #37474f;
-      border-top: none;
-      border-radius: 0 0 8px 8px;
-      padding: 20px 20px 20px 90px;
-      background: #fafafa;
-      position: relative;
-    }
-    .actor-icon {
-      text-align: center;
-      margin-bottom: 8px;
-    }
-    .actor-icon svg {
-      width: 40px;
-      height: 50px;
-    }
-    .actor-label {
-      font-size: 11px;
-      font-weight: 600;
-    }
-    .arrow-down {
-      text-align: center;
-      margin: 4px 0;
-    }
-    .zone {
-      position: relative;
-      margin-bottom: 4px;
-    }
-    .zone:last-child {
-      margin-bottom: 0;
-    }
-    .zone-label {
-      position: absolute;
-      left: -70px;
-      top: 0;
-      bottom: 0;
-      width: 60px;
-      border: 1px solid #37474f;
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-      transform: rotate(180deg);
-      font-size: 10px;
-      font-weight: 600;
-      padding: 4px;
-    }
-    .zone-layers {
-      border-radius: 4px;
-      padding: 4px 0;
-    }
-    .layer {
-      display: flex;
-      align-items: stretch;
-      margin-bottom: 2px;
-      position: relative;
-    }
-    .layer:last-child {
-      margin-bottom: 0;
-    }
-    .defense-indicator {
-      position: absolute;
-      left: -24px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 18px;
-      height: 18px;
-      border-radius: 50%;
-      background: #d32f2f;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 10px;
-      color: white;
-      font-weight: bold;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-    }
-    .layer-box {
-      flex: 0 0 140px;
-      border: 2px solid #37474f;
-      border-right: none;
-      padding: 12px 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 600;
-      font-size: 13px;
-      position: relative;
-    }
-    .new-badge {
-      position: absolute;
-      top: 2px;
-      right: 4px;
-      font-size: 8px;
-      background: #ff5722;
-      color: white;
-      padding: 1px 4px;
-      border-radius: 3px;
-      font-weight: bold;
-    }
-    .layer-desc {
-      flex: 1;
-      background: #fffde7;
-      border: 2px solid #37474f;
-      padding: 12px;
-      display: flex;
-      align-items: center;
-    }
-    .layer-code {
-      font-weight: bold;
-      margin-right: 8px;
-      color: #1565c0;
-      font-size: 12px;
-      white-space: nowrap;
-    }
-    .layer-text {
-      font-size: 12px;
-    }
-    /* Color definitions */
-    .bg-business { background: #e3f2fd; }
-    .bg-appdev { background: #c8e6c9; }
-    .bg-agentic { background: #fff3e0; }
-    .bg-aiprovider { background: #fce4ec; }
-    .bg-cloud { background: #fff9c4; }
-    .bg-model { background: #ffccbc; }
-    .bg-business-zone { background: rgba(227, 242, 253, 0.4); }
-    .bg-appdev-zone { background: rgba(200, 230, 201, 0.4); }
-    .bg-aiprovider-zone { background: rgba(252, 228, 236, 0.4); }
-    .bg-cloud-zone { background: rgba(255, 249, 196, 0.4); }
-    .bg-model-zone { background: rgba(255, 204, 188, 0.4); }
-    .insights {
-      margin-top: 24px;
-      padding: 20px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-    .insights h3 {
-      margin-bottom: 16px;
-      font-size: 16px;
-    }
-    .insights-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 16px;
-    }
-    .insight-card {
-      padding: 12px;
-      border-radius: 6px;
-      border-left: 4px solid;
-    }
-    .insight-card strong {
-      font-size: 13px;
-    }
-    .insight-card p {
-      margin-top: 8px;
-      font-size: 12px;
-    }
-    .matrix {
-      margin-top: 24px;
-      padding: 20px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-    .matrix h3 {
-      margin-bottom: 16px;
-      font-size: 16px;
-    }
-    .matrix table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 12px;
-    }
-    .matrix th {
-      background: #1565c0;
-      color: white;
-      padding: 10px;
-      text-align: center;
-    }
-    .matrix th:first-child {
-      text-align: left;
-      border-radius: 4px 0 0 0;
-    }
-    .matrix th:last-child {
-      border-radius: 0 4px 0 0;
-    }
-    .matrix td {
-      padding: 10px;
-      border-bottom: 1px solid #ddd;
-    }
-    .matrix td:not(:first-child) {
-      text-align: center;
-    }
-    .matrix tr:nth-child(odd) td {
-      background: #f5f5f5;
-    }
-    .matrix tr.agentic-row td {
-      background: rgba(255, 243, 224, 0.6) !important;
-    }
-    .footer {
-      margin-top: 24px;
-      padding: 12px;
-      background: #37474f;
-      color: white;
-      border-radius: 6px;
-      font-size: 11px;
-      text-align: center;
-    }
-  </style>
 </head>
 <body id="artifacts-component-root-html">
-  <div class="conatiner">
+  <div style="font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; background: #eceff1; color: #263238; box-sizing: border-box; margin: 0; padding: 0;">
   <!-- Header -->
-  <div class="header">
-    <h1>
+  <div style="margin-bottom: 24px;">
+    <h1 style="font-size: 28px; font-weight: 700; margin-bottom: 8px;">
       Prompt Responsibility Model
-      <span>CoSAI Five-Layer Framework</span>
+      <span style="font-size: 14px; font-weight: normal; margin-left: 12px; color: #607d8b;">CoSAI Five-Layer Framework</span>
     </h1>
-    <p>
+    <p style="font-size: 14px; color: #546e7a;">
       Who is accountable for prompts executed against AI models? This includes user inputs, 
       system prompts, RAG context, and <strong>agent-generated prompts</strong> during autonomous execution.
     </p>
   </div>
   <!-- Legend -->
-  <div class="legend">
-    <div class="legend-item">
-      <div class="legend-color bg-business"></div>
+  <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 24px; padding: 16px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 12px;">
+      <div style="width: 20px; height: 20px; background: #e3f2fd; border: 1px solid #37474f; border-radius: 3px;"></div>
       <span>Customer/Business</span>
     </div>
-    <div class="legend-item">
-      <div class="legend-color bg-appdev"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 12px;">
+      <div style="width: 20px; height: 20px; background: #c8e6c9; border: 1px solid #37474f; border-radius: 3px;"></div>
       <span>AI App Developer</span>
     </div>
-    <div class="legend-item">
-      <div class="legend-color bg-agentic"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 12px;">
+      <div style="width: 20px; height: 20px; background: #fff3e0; border: 1px solid #37474f; border-radius: 3px;"></div>
       <span>Agentic Provider (NEW)</span>
     </div>
-    <div class="legend-item">
-      <div class="legend-color bg-aiprovider"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 12px;">
+      <div style="width: 20px; height: 20px; background: #fce4ec; border: 1px solid #37474f; border-radius: 3px;"></div>
       <span>AI Platform Provider</span>
     </div>
-    <div class="legend-item">
-      <div class="legend-color bg-cloud"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 12px;">
+      <div style="width: 20px; height: 20px; background: #fff9c4; border: 1px solid #37474f; border-radius: 3px;"></div>
       <span>Cloud Provider</span>
     </div>
-    <div class="legend-item">
-      <div class="legend-color bg-model"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 12px;">
+      <div style="width: 20px; height: 20px; background: #ffccbc; border: 1px solid #37474f; border-radius: 3px;"></div>
       <span>Model Provider</span>
     </div>
-    <div class="legend-item">
-      <div class="legend-defense">🛡</div>
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 12px;">
+      <div style="width: 20px; height: 20px; background: #d32f2f; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white;">🛡</div>
       <span>Prompt Injection Defense Point</span>
     </div>
   </div>
   <!-- Models Grid -->
-  <div class="models-grid">
+  <div style="display: flex; gap: 16px; overflow-x: auto; padding-bottom: 16px;">
     <!-- IaaS Column -->
-    <div class="model-column">
-      <div class="model-header">IaaS</div>
-      <div class="model-subheader">Infrastructure as a Service (BYO Model)</div>
-      <div class="model-content">
+    <div style="flex: 1; min-width: 380px;">
+      <div style="background: #1565c0; color: white; padding: 12px 16px; text-align: center; font-weight: bold; font-size: 16px; border-radius: 8px 8px 0 0;">IaaS</div>
+      <div style="background: #1976d2; color: white; padding: 6px; text-align: center; font-size: 11px;">Infrastructure as a Service (BYO Model)</div>
+      <div style="border: 2px solid #37474f; border-top: none; border-radius: 0 0 8px 8px; padding: 20px 20px 20px 90px; background: #fafafa; position: relative;">
         <!-- Actor -->
-        <div class="actor-icon">
-          <svg viewBox="0 0 40 50">
+        <div style="text-align: center; margin-bottom: 8px;">
+          <svg viewBox="0 0 40 50" style="width: 40px; height: 50px;">
             <circle cx="20" cy="10" r="8" fill="none" stroke="#37474f" stroke-width="2"></circle>
             <line x1="20" y1="18" x2="20" y2="35" stroke="#37474f" stroke-width="2"></line>
             <line x1="5" y1="25" x2="35" y2="25" stroke="#37474f" stroke-width="2"></line>
             <line x1="20" y1="35" x2="8" y2="48" stroke="#37474f" stroke-width="2"></line>
             <line x1="20" y1="35" x2="32" y2="48" stroke="#37474f" stroke-width="2"></line>
           </svg>
-          <div class="actor-label">Actor</div>
+          <div style="font-size: 11px; font-weight: 600;">Actor</div>
         </div>
-        <div class="arrow-down">
+        <div style="text-align: center; margin: 4px 0;">
           <svg width="20" height="20" viewBox="0 0 20 20">
             <path d="M10 0 L10 14 M4 10 L10 16 L16 10" fill="none" stroke="#37474f" stroke-width="2"></path>
           </svg>
         </div>
         <!-- Business Zone -->
-        <div class="zone">
-          <div class="zone-label bg-business">Business</div>
-          <div class="zone-layers bg-business-zone">
-            <div class="layer">
-              <div class="layer-box bg-business">Actor</div>
-              <div class="layer-desc">
-                <span class="layer-code">L01</span>
-                <span class="layer-text">User input, data &amp; business intent</span>
+        <div style="position: relative; margin-bottom: 4px;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #e3f2fd;">Business</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(227, 242, 253, 0.4);">
+            <div style="display: flex; align-items: stretch; margin-bottom: 2px; position: relative;">
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #e3f2fd;">Actor</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L01</span>
+                <span style="font-size: 12px;">User input, data &amp; business intent</span>
               </div>
             </div>
-            <div class="layer">
-              <div class="defense-indicator">🛡</div>
-              <div class="layer-box bg-business">Application</div>
-              <div class="layer-desc">
-                <span class="layer-code">L02</span>
-                <span class="layer-text">Guardrails, system prompts, instructions</span>
+            <div style="display: flex; align-items: stretch; margin-bottom: 2px; position: relative;">
+              <div style="position: absolute; left: -24px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; background: #d32f2f; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">🛡</div>
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #e3f2fd;">Application</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L02</span>
+                <span style="font-size: 12px;">Guardrails, system prompts, instructions</span>
               </div>
             </div>
-            <div class="layer">
-              <div class="defense-indicator">🛡</div>
-              <div class="layer-box bg-business">Agentic Layer<span class="new-badge">NEW</span></div>
-              <div class="layer-desc">
-                <span class="layer-code">L03</span>
-                <span class="layer-text">Agent reasoning &amp; tool-calling prompts</span>
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="position: absolute; left: -24px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; background: #d32f2f; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">🛡</div>
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #e3f2fd;">Agentic Layer<span style="position: absolute; top: 2px; right: 4px; font-size: 8px; background: #ff5722; color: white; padding: 1px 4px; border-radius: 3px; font-weight: bold;">NEW</span></div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L03</span>
+                <span style="font-size: 12px;">Agent reasoning &amp; tool-calling prompts</span>
               </div>
             </div>
           </div>
         </div>
         <!-- AI Provider Zone -->
-        <div class="zone">
-          <div class="zone-label bg-aiprovider">AI Provider</div>
-          <div class="zone-layers bg-aiprovider-zone">
-            <div class="layer">
-              <div class="layer-box bg-aiprovider">LLM Platform</div>
-              <div class="layer-desc">
-                <span class="layer-code">L04</span>
-                <span class="layer-text">Prompt execution &amp; model routing</span>
+        <div style="position: relative; margin-bottom: 4px;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #fce4ec;">AI Provider</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(252, 228, 236, 0.4);">
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #fce4ec;">LLM Platform</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L04</span>
+                <span style="font-size: 12px;">Prompt execution &amp; model routing</span>
               </div>
             </div>
           </div>
         </div>
         <!-- Cloud Zone -->
-        <div class="zone">
-          <div class="zone-label bg-cloud">Cloud</div>
-          <div class="zone-layers bg-cloud-zone">
-            <div class="layer">
-              <div class="layer-box bg-cloud">Infrastructure</div>
-              <div class="layer-desc">
-                <span class="layer-code">L05</span>
-                <span class="layer-text">CPU/GPU processing &amp; isolation</span>
+        <div style="position: relative; margin-bottom: 4px;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #fff9c4;">Cloud</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(255, 249, 196, 0.4);">
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #fff9c4;">Infrastructure</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L05</span>
+                <span style="font-size: 12px;">CPU/GPU processing &amp; isolation</span>
               </div>
             </div>
           </div>
         </div>
         <!-- Model Zone -->
-        <div class="zone">
-          <div class="zone-label bg-model">Model</div>
-          <div class="zone-layers bg-model-zone">
-            <div class="layer">
-              <div class="defense-indicator">🛡</div>
-              <div class="layer-box bg-model">Model</div>
-              <div class="layer-desc">
-                <span class="layer-code">L06</span>
-                <span class="layer-text">Inference, reasoning &amp; base safeguards</span>
+        <div style="position: relative;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #ffccbc;">Model</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(255, 204, 188, 0.4);">
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="position: absolute; left: -24px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; background: #d32f2f; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">🛡</div>
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #ffccbc;">Model</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L06</span>
+                <span style="font-size: 12px;">Inference, reasoning &amp; base safeguards</span>
               </div>
             </div>
           </div>
@@ -1497,91 +1032,91 @@ I.e. the person or data steward responsible for the [‘state’ of the inputs](
       </div>
     </div>
     <!-- PaaS Column -->
-    <div class="model-column">
-      <div class="model-header">PaaS</div>
-      <div class="model-subheader">Platform as a Service (Azure AI, Bedrock)</div>
-      <div class="model-content">
+    <div style="flex: 1; min-width: 380px;">
+      <div style="background: #1565c0; color: white; padding: 12px 16px; text-align: center; font-weight: bold; font-size: 16px; border-radius: 8px 8px 0 0;">PaaS</div>
+      <div style="background: #1976d2; color: white; padding: 6px; text-align: center; font-size: 11px;">Platform as a Service (Azure AI, Bedrock)</div>
+      <div style="border: 2px solid #37474f; border-top: none; border-radius: 0 0 8px 8px; padding: 20px 20px 20px 90px; background: #fafafa; position: relative;">
         <!-- Actor -->
-        <div class="actor-icon">
-          <svg viewBox="0 0 40 50">
+        <div style="text-align: center; margin-bottom: 8px;">
+          <svg viewBox="0 0 40 50" style="width: 40px; height: 50px;">
             <circle cx="20" cy="10" r="8" fill="none" stroke="#37474f" stroke-width="2"></circle>
             <line x1="20" y1="18" x2="20" y2="35" stroke="#37474f" stroke-width="2"></line>
             <line x1="5" y1="25" x2="35" y2="25" stroke="#37474f" stroke-width="2"></line>
             <line x1="20" y1="35" x2="8" y2="48" stroke="#37474f" stroke-width="2"></line>
             <line x1="20" y1="35" x2="32" y2="48" stroke="#37474f" stroke-width="2"></line>
           </svg>
-          <div class="actor-label">Actor</div>
+          <div style="font-size: 11px; font-weight: 600;">Actor</div>
         </div>
-        <div class="arrow-down">
+        <div style="text-align: center; margin: 4px 0;">
           <svg width="20" height="20" viewBox="0 0 20 20">
             <path d="M10 0 L10 14 M4 10 L10 16 L16 10" fill="none" stroke="#37474f" stroke-width="2"></path>
           </svg>
         </div>
         <!-- Business Zone -->
-        <div class="zone">
-          <div class="zone-label bg-business">Business</div>
-          <div class="zone-layers bg-business-zone">
-            <div class="layer">
-              <div class="layer-box bg-business">Actor</div>
-              <div class="layer-desc">
-                <span class="layer-code">L01</span>
-                <span class="layer-text">User input, data &amp; business intent</span>
+        <div style="position: relative; margin-bottom: 4px;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #e3f2fd;">Business</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(227, 242, 253, 0.4);">
+            <div style="display: flex; align-items: stretch; margin-bottom: 2px; position: relative;">
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #e3f2fd;">Actor</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L01</span>
+                <span style="font-size: 12px;">User input, data &amp; business intent</span>
               </div>
             </div>
-            <div class="layer">
-              <div class="defense-indicator">🛡</div>
-              <div class="layer-box bg-business">Application</div>
-              <div class="layer-desc">
-                <span class="layer-code">L02</span>
-                <span class="layer-text">Guardrails, system prompts, instructions</span>
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="position: absolute; left: -24px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; background: #d32f2f; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">🛡</div>
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #e3f2fd;">Application</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L02</span>
+                <span style="font-size: 12px;">Guardrails, system prompts, instructions</span>
               </div>
             </div>
           </div>
         </div>
         <!-- AI Provider Zone -->
-        <div class="zone">
-          <div class="zone-label bg-aiprovider">AI Provider</div>
-          <div class="zone-layers bg-aiprovider-zone">
-            <div class="layer">
-              <div class="defense-indicator">🛡</div>
-              <div class="layer-box bg-agentic">Agentic Layer<span class="new-badge">NEW</span></div>
-              <div class="layer-desc">
-                <span class="layer-code">L03</span>
-                <span class="layer-text">Agent reasoning &amp; tool-calling prompts</span>
+        <div style="position: relative; margin-bottom: 4px;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #fce4ec;">AI Provider</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(252, 228, 236, 0.4);">
+            <div style="display: flex; align-items: stretch; margin-bottom: 2px; position: relative;">
+              <div style="position: absolute; left: -24px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; background: #d32f2f; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">🛡</div>
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #fff3e0;">Agentic Layer<span style="position: absolute; top: 2px; right: 4px; font-size: 8px; background: #ff5722; color: white; padding: 1px 4px; border-radius: 3px; font-weight: bold;">NEW</span></div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L03</span>
+                <span style="font-size: 12px;">Agent reasoning &amp; tool-calling prompts</span>
               </div>
             </div>
-            <div class="layer">
-              <div class="layer-box bg-aiprovider">LLM Platform</div>
-              <div class="layer-desc">
-                <span class="layer-code">L04</span>
-                <span class="layer-text">Prompt execution &amp; model routing</span>
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #fce4ec;">LLM Platform</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L04</span>
+                <span style="font-size: 12px;">Prompt execution &amp; model routing</span>
               </div>
             </div>
           </div>
         </div>
         <!-- Cloud Zone -->
-        <div class="zone">
-          <div class="zone-label bg-cloud">Cloud</div>
-          <div class="zone-layers bg-cloud-zone">
-            <div class="layer">
-              <div class="layer-box bg-cloud">Infrastructure</div>
-              <div class="layer-desc">
-                <span class="layer-code">L05</span>
-                <span class="layer-text">CPU/GPU processing &amp; isolation</span>
+        <div style="position: relative; margin-bottom: 4px;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #fff9c4;">Cloud</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(255, 249, 196, 0.4);">
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #fff9c4;">Infrastructure</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L05</span>
+                <span style="font-size: 12px;">CPU/GPU processing &amp; isolation</span>
               </div>
             </div>
           </div>
         </div>
         <!-- Model Zone -->
-        <div class="zone">
-          <div class="zone-label bg-model">Model</div>
-          <div class="zone-layers bg-model-zone">
-            <div class="layer">
-              <div class="defense-indicator">🛡</div>
-              <div class="layer-box bg-model">Model</div>
-              <div class="layer-desc">
-                <span class="layer-code">L06</span>
-                <span class="layer-text">Inference, reasoning &amp; base safeguards</span>
+        <div style="position: relative;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #ffccbc;">Model</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(255, 204, 188, 0.4);">
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="position: absolute; left: -24px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; background: #d32f2f; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">🛡</div>
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #ffccbc;">Model</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L06</span>
+                <span style="font-size: 12px;">Inference, reasoning &amp; base safeguards</span>
               </div>
             </div>
           </div>
@@ -1589,91 +1124,91 @@ I.e. the person or data steward responsible for the [‘state’ of the inputs](
       </div>
     </div>
     <!-- SaaS Column -->
-    <div class="model-column">
-      <div class="model-header">SaaS</div>
-      <div class="model-subheader">Software as a Service (Copilot, ServiceNow AI)</div>
-      <div class="model-content">
+    <div style="flex: 1; min-width: 380px;">
+      <div style="background: #1565c0; color: white; padding: 12px 16px; text-align: center; font-weight: bold; font-size: 16px; border-radius: 8px 8px 0 0;">SaaS</div>
+      <div style="background: #1976d2; color: white; padding: 6px; text-align: center; font-size: 11px;">Software as a Service (Copilot, ServiceNow AI)</div>
+      <div style="border: 2px solid #37474f; border-top: none; border-radius: 0 0 8px 8px; padding: 20px 20px 20px 90px; background: #fafafa; position: relative;">
         <!-- Actor -->
-        <div class="actor-icon">
-          <svg viewBox="0 0 40 50">
+        <div style="text-align: center; margin-bottom: 8px;">
+          <svg viewBox="0 0 40 50" style="width: 40px; height: 50px;">
             <circle cx="20" cy="10" r="8" fill="none" stroke="#37474f" stroke-width="2"></circle>
             <line x1="20" y1="18" x2="20" y2="35" stroke="#37474f" stroke-width="2"></line>
             <line x1="5" y1="25" x2="35" y2="25" stroke="#37474f" stroke-width="2"></line>
             <line x1="20" y1="35" x2="8" y2="48" stroke="#37474f" stroke-width="2"></line>
             <line x1="20" y1="35" x2="32" y2="48" stroke="#37474f" stroke-width="2"></line>
           </svg>
-          <div class="actor-label">Actor</div>
+          <div style="font-size: 11px; font-weight: 600;">Actor</div>
         </div>
-        <div class="arrow-down">
+        <div style="text-align: center; margin: 4px 0;">
           <svg width="20" height="20" viewBox="0 0 20 20">
             <path d="M10 0 L10 14 M4 10 L10 16 L16 10" fill="none" stroke="#37474f" stroke-width="2"></path>
           </svg>
         </div>
         <!-- Business Zone -->
-        <div class="zone">
-          <div class="zone-label bg-business">Business</div>
-          <div class="zone-layers bg-business-zone">
-            <div class="layer">
-              <div class="layer-box bg-business">Actor</div>
-              <div class="layer-desc">
-                <span class="layer-code">L01</span>
-                <span class="layer-text">User input, data &amp; business intent</span>
+        <div style="position: relative; margin-bottom: 4px;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #e3f2fd;">Business</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(227, 242, 253, 0.4);">
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #e3f2fd;">Actor</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L01</span>
+                <span style="font-size: 12px;">User input, data &amp; business intent</span>
               </div>
             </div>
           </div>
         </div>
         <!-- AI App Developer Zone -->
-        <div class="zone">
-          <div class="zone-label bg-appdev">AI App Developer</div>
-          <div class="zone-layers bg-appdev-zone">
-            <div class="layer">
-              <div class="defense-indicator">🛡</div>
-              <div class="layer-box bg-appdev">Application</div>
-              <div class="layer-desc">
-                <span class="layer-code">L02</span>
-                <span class="layer-text">Guardrails, system prompts, instructions</span>
+        <div style="position: relative; margin-bottom: 4px;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #c8e6c9;">AI App Developer</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(200, 230, 201, 0.4);">
+            <div style="display: flex; align-items: stretch; margin-bottom: 2px; position: relative;">
+              <div style="position: absolute; left: -24px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; background: #d32f2f; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">🛡</div>
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #c8e6c9;">Application</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L02</span>
+                <span style="font-size: 12px;">Guardrails, system prompts, instructions</span>
               </div>
             </div>
-            <div class="layer">
-              <div class="defense-indicator">🛡</div>
-              <div class="layer-box bg-agentic">Agentic Layer<span class="new-badge">NEW</span></div>
-              <div class="layer-desc">
-                <span class="layer-code">L03</span>
-                <span class="layer-text">Agent reasoning &amp; tool-calling prompts</span>
+            <div style="display: flex; align-items: stretch; margin-bottom: 2px; position: relative;">
+              <div style="position: absolute; left: -24px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; background: #d32f2f; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">🛡</div>
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #fff3e0;">Agentic Layer<span style="position: absolute; top: 2px; right: 4px; font-size: 8px; background: #ff5722; color: white; padding: 1px 4px; border-radius: 3px; font-weight: bold;">NEW</span></div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L03</span>
+                <span style="font-size: 12px;">Agent reasoning &amp; tool-calling prompts</span>
               </div>
             </div>
-            <div class="layer">
-              <div class="layer-box bg-appdev">LLM Platform</div>
-              <div class="layer-desc">
-                <span class="layer-code">L04</span>
-                <span class="layer-text">Prompt execution &amp; model routing</span>
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #c8e6c9;">LLM Platform</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L04</span>
+                <span style="font-size: 12px;">Prompt execution &amp; model routing</span>
               </div>
             </div>
           </div>
         </div>
         <!-- Cloud Zone -->
-        <div class="zone">
-          <div class="zone-label bg-cloud">Cloud</div>
-          <div class="zone-layers bg-cloud-zone">
-            <div class="layer">
-              <div class="layer-box bg-cloud">Infrastructure</div>
-              <div class="layer-desc">
-                <span class="layer-code">L05</span>
-                <span class="layer-text">CPU/GPU processing &amp; isolation</span>
+        <div style="position: relative; margin-bottom: 4px;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #fff9c4;">Cloud</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(255, 249, 196, 0.4);">
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #fff9c4;">Infrastructure</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L05</span>
+                <span style="font-size: 12px;">CPU/GPU processing &amp; isolation</span>
               </div>
             </div>
           </div>
         </div>
         <!-- Model Zone -->
-        <div class="zone">
-          <div class="zone-label bg-model">Model</div>
-          <div class="zone-layers bg-model-zone">
-            <div class="layer">
-              <div class="defense-indicator">🛡</div>
-              <div class="layer-box bg-model">Model</div>
-              <div class="layer-desc">
-                <span class="layer-code">L06</span>
-                <span class="layer-text">Inference, reasoning &amp; base safeguards</span>
+        <div style="position: relative;">
+          <div style="position: absolute; left: -70px; top: 0; bottom: 0; width: 60px; border: 1px solid #37474f; border-radius: 4px; display: flex; align-items: center; justify-content: center; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); font-size: 10px; font-weight: 600; padding: 4px; background: #ffccbc;">Model</div>
+          <div style="border-radius: 4px; padding: 4px 0; background: rgba(255, 204, 188, 0.4);">
+            <div style="display: flex; align-items: stretch; position: relative;">
+              <div style="position: absolute; left: -24px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; border-radius: 50%; background: #d32f2f; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">🛡</div>
+              <div style="flex: 0 0 140px; border: 2px solid #37474f; border-right: none; padding: 12px 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 13px; position: relative; background: #ffccbc;">Model</div>
+              <div style="flex: 1; background: #fffde7; border: 2px solid #37474f; padding: 12px; display: flex; align-items: center;">
+                <span style="font-weight: bold; margin-right: 8px; color: #1565c0; font-size: 12px; white-space: nowrap;">L06</span>
+                <span style="font-size: 12px;">Inference, reasoning &amp; base safeguards</span>
               </div>
             </div>
           </div>
@@ -1682,33 +1217,33 @@ I.e. the person or data steward responsible for the [‘state’ of the inputs](
     </div>
   </div>
   <!-- Key Insights -->
-  <div class="insights">
-    <h3>Key Changes from Original Model</h3>
-    <div class="insights-grid">
-      <div class="insight-card" style="background: #fff3e0; border-color: #ff9800;">
-        <strong>🆕 Agentic Layer (L03) Added</strong>
-        <p style="color: #5d4037;">
+  <div style="margin-top: 24px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+    <h3 style="margin-bottom: 16px; font-size: 16px;">Key Changes from Original Model</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
+      <div style="padding: 12px; border-radius: 6px; border-left: 4px solid #ff9800; background: #fff3e0;">
+        <strong style="font-size: 13px;">🆕 Agentic Layer (L03) Added</strong>
+        <p style="margin-top: 8px; font-size: 12px; color: #5d4037;">
           Agent-generated prompts during planning, tool selection, and multi-step reasoning 
           are now explicitly owned by the Agentic AI Provider—not the customer or app developer.
         </p>
       </div>
-      <div class="insight-card" style="background: #ffebee; border-color: #d32f2f;">
-        <strong>🛡 Prompt Injection Defense Points</strong>
-        <p style="color: #5d4037;">
+      <div style="padding: 12px; border-radius: 6px; border-left: 4px solid #d32f2f; background: #ffebee;">
+        <strong style="font-size: 13px;">🛡 Prompt Injection Defense Points</strong>
+        <p style="margin-top: 8px; font-size: 12px; color: #5d4037;">
           Defense occurs at L02 (input sanitization), L03 (agent prompt validation), 
           and L06 (model-level jailbreak resistance). Defense is layered, not single-point.
         </p>
       </div>
-      <div class="insight-card" style="background: #e8f5e9; border-color: #4caf50;">
-        <strong>📋 Fixed Layer Numbering (L01-L06)</strong>
-        <p style="color: #1b5e20;">
+      <div style="padding: 12px; border-radius: 6px; border-left: 4px solid #4caf50; background: #e8f5e9;">
+        <strong style="font-size: 13px;">📋 Fixed Layer Numbering (L01-L06)</strong>
+        <p style="margin-top: 8px; font-size: 12px; color: #1b5e20;">
           Infrastructure and Model now have distinct codes (L05, L06). 
           Agentic layer inserted as L03, with downstream renumbering.
         </p>
       </div>
-      <div class="insight-card" style="background: #e3f2fd; border-color: #1565c0;">
-        <strong>⚖️ SaaS Accountability Clarity</strong>
-        <p style="color: #0d47a1;">
+      <div style="padding: 12px; border-radius: 6px; border-left: 4px solid #1565c0; background: #e3f2fd;">
+        <strong style="font-size: 13px;">⚖️ SaaS Accountability Clarity</strong>
+        <p style="margin-top: 8px; font-size: 12px; color: #0d47a1;">
           In SaaS, the AI App Developer owns L02-L04 including the Agentic layer. 
           Customer owns only L01 (input) and governance policies.
         </p>
@@ -1716,62 +1251,66 @@ I.e. the person or data steward responsible for the [‘state’ of the inputs](
     </div>
   </div>
   <!-- Prompt Types Matrix -->
-  <div class="matrix">
-    <h3>Prompt Type Accountability Matrix</h3>
-    <table>
+  <div style="margin-top: 24px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+    <h3 style="margin-bottom: 16px; font-size: 16px;">Prompt Type Accountability Matrix</h3>
+    <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
       <thead>
         <tr>
-          <th>Prompt Type</th>
-          <th>IaaS</th>
-          <th>PaaS</th>
-          <th>SaaS</th>
+          <th style="background: #1565c0; color: white; padding: 10px; text-align: left; border-radius: 4px 0 0 0;">Prompt Type</th>
+          <th style="background: #1565c0; color: white; padding: 10px; text-align: center;">IaaS</th>
+          <th style="background: #1565c0; color: white; padding: 10px; text-align: center; border-radius: 0 4px 0 0;">PaaS</th>
+          <th style="background: #1565c0; color: white; padding: 10px; text-align: center; border-radius: 0 4px 0 0;">SaaS</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>User Input</strong> (raw query/data)</td>
-          <td>Customer</td>
-          <td>Customer</td>
-          <td>Customer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>User Input</strong> (raw query/data)</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center;">Customer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center;">Customer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center;">Customer</td>
         </tr>
         <tr>
-          <td><strong>System Prompt</strong> (instructions, persona)</td>
-          <td>Customer</td>
-          <td>Customer</td>
-          <td>AI App Developer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; background: #f5f5f5;"><strong>System Prompt</strong> (instructions, persona)</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: #f5f5f5;">Customer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: #f5f5f5;">Customer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: #f5f5f5;">AI App Developer</td>
         </tr>
         <tr>
-          <td><strong>RAG Context</strong> (retrieved documents)</td>
-          <td>Customer</td>
-          <td>Shared</td>
-          <td>AI App Developer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>RAG Context</strong> (retrieved documents)</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center;">Customer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center;">Shared</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center;">AI App Developer</td>
         </tr>
-        <tr class="agentic-row">
-          <td><strong>🆕 Agent Planning Prompts</strong></td>
-          <td>Customer</td>
-          <td>Agentic Provider</td>
-          <td>AI App Developer</td>
+        <tr style="background: rgba(255, 243, 224, 0.6);">
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; background: rgba(255, 243, 224, 0.6) !important;"><strong>🆕 Agent Planning Prompts</strong></td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: rgba(255, 243, 224, 0.6) !important;">Customer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: rgba(255, 243, 224, 0.6) !important;">Agentic Provider</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: rgba(255, 243, 224, 0.6) !important;">AI App Developer</td>
         </tr>
-        <tr class="agentic-row">
-          <td><strong>🆕 Tool-Calling Prompts</strong></td>
-          <td>Customer</td>
-          <td>Agentic Provider</td>
-          <td>AI App Developer</td>
+        <tr style="background: rgba(255, 243, 224, 0.6);">
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; background: rgba(255, 243, 224, 0.6) !important;"><strong>🆕 Tool-Calling Prompts</strong></td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: rgba(255, 243, 224, 0.6) !important;">Customer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: rgba(255, 243, 224, 0.6) !important;">Agentic Provider</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: rgba(255, 243, 224, 0.6) !important;">AI App Developer</td>
         </tr>
-        <tr class="agentic-row">
-          <td><strong>🆕 Multi-Step Orchestration</strong></td>
-          <td>Customer</td>
-          <td>Agentic Provider</td>
-          <td>AI App Developer</td>
+        <tr style="background: rgba(255, 243, 224, 0.6);">
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; background: rgba(255, 243, 224, 0.6) !important;"><strong>🆕 Multi-Step Orchestration</strong></td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: rgba(255, 243, 224, 0.6) !important;">Customer</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: rgba(255, 243, 224, 0.6) !important;">Agentic Provider</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: rgba(255, 243, 224, 0.6) !important;">AI App Developer</td>
         </tr>
         <tr>
-          <td><strong>Model Safety Prompts</strong> (built-in guardrails)</td>
-          <td>Model Provider</td>
-          <td>Model Provider</td>
-          <td>Model Provider</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; background: #f5f5f5;"><strong>Model Safety Prompts</strong> (built-in guardrails)</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: #f5f5f5;">Model Provider</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: #f5f5f5;">Model Provider</td>
+          <td style="padding: 10px; border-bottom: 1px solid #ddd; text-align: center; background: #f5f5f5;">Model Provider</td>
         </tr>
       </tbody>
     </table>
+  </div>
+  <!-- Footer -->
+  <div style="margin-top: 24px; padding: 12px; background: #37474f; color: white; border-radius: 6px; font-size: 11px; text-align: center;">
+    CoSAI Five-Layer Framework — Prompt Security Responsibility Model
   </div>
   </div>
 </body></html>
