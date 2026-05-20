@@ -4,44 +4,6 @@ OASIS Open Project : [Coalition for Secure AI (CoSAI)](https://github.com/cosai-
 
 Status: Under review by the CoSAI Project Governing Board on 19 May 2026
 
-<html>
-<div class="diagram-container" style="display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 600px; font-family: Arial, sans-serif; margin: 20px auto;">
-    <!-- Box 1: AI Business & Usage -->
-    <div class="box color-green" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #5ca368; color: white;">
-        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Business & Usage</div>
-        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(C-Suite/Governance)</span>
-        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Governance, Strategy, Compliance</div>
-    </div>
-    <div class="arrow-separator" style="width: 3px; height: 20px; background-color: #999; margin-bottom: 5px; display: block;"></div>
-    <!-- Box 2: AI Information -->
-    <div class="box color-blue-dark" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #4a90e2; color: white;">
-        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Information</div>
-        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(Data Owners)</span>
-        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Data Management, Quality, Privacy</div>
-    </div>
-    <div class="arrow-separator" style="width: 3px; height: 20px; background-color: #999; margin-bottom: 5px; display: block;"></div>
-    <!-- Box 3: AI Application -->
-    <div class="box color-orange" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #ff9933; color: white;">
-        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Application</div>
-        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(Dev Teams)</span>
-        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Development, Integration, Testing</div>
-    </div>
-    <div class="arrow-separator" style="width: 3px; height: 20px; background-color: #999; margin-bottom: 5px; display: block;"></div>
-    <!-- Box 4: AI Platform -->
-    <div class="box color-red" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #e85d60; color: white;">
-        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Platform</div>
-        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(Platform Providers)</span>
-        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Infrastructure, APIs, Tooling</div>
-    </div>
-    <div class="arrow-separator" style="width: 3px; height: 20px; background-color: #999; margin-bottom: 5px; display: block;"></div>
-    <!-- Box 5: AI Model Provider -->
-    <div class="box color-purple" style="width: 100%; padding: 20px 25px; margin-bottom: 15px; border-radius: 10px; box-sizing: border-box; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; position: relative; background-color: #6a5acd; color: white;">
-        <div class="title" style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">AI Model Provider</div>
-        <span class="subtitle" style="font-size: 0.9em; opacity: 0.8; display: block; margin-bottom: 15px;">(Supply Chain)</span>
-        <div class="description" style="font-size: 1em; margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); display: block;">Models, Training, Supply Chain</div>
-    </div>
-</div>
-</html>
 
 **Table of Contents**
 
@@ -158,7 +120,7 @@ Depending on the solution operating model, IaaS, PaaS, or SaaS, the solution lay
 | Principle:  *There should be exactly one accountable party per activity to prevent overlaps.* |
 | :---: |
 
-<iframe src="images/SRM.html" frameborder="0"></iframe>
+<html><iframe src="images/SRM.html" frameborder="0"></iframe></html>
 
 ## 3.1 Personas
 
