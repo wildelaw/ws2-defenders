@@ -2,7 +2,7 @@
 
 OASIS Open Project : [Coalition for Secure AI (CoSAI)](https://github.com/cosai-oasis) [Workstream 2: AI Shared Responsibility Framework](https://github.com/cosai-oasis/ws2-defenders)
 
-Status: Under review by the CoSAI Project Governing Board
+Status: Approved by the CoSAI Project Governing Board on 19 May 2026
 
 <html>
 <style>
@@ -1775,19 +1775,6 @@ I.e. the person or data steward responsible for the [‘state’ of the inputs](
   </div>
   </div>
 </body></html>
-
-
-**Prompt Type Accountability Matrix**
-
-| Prompt Type | IaaS *(Raw infrastructure)* | PaaS | SaaS |
-| :---- | :---: | :---: | :---: |
-| **User Input** (raw query/data) | Customer | Customer | Customer |
-| **System Prompt** (instructions, persona) | Customer | Customer | AI App Developer |
-| **RAG Context** (retrieved documents) | Customer | Shared | AI App Developer |
-| **🆕 Agent Planning Prompts** | Customer | Agentic Provider | AI App Developer |
-| **🆕 Tool-Calling Prompts** | Customer | Agentic Provider | AI App Developer |
-| **🆕 Multi-Step Orchestration** | Customer | Agentic Provider | AI App Developer |
-| **Model Safety Prompts** (built-in guardrails) | Model Provider | Model Provider | Model Provider |
 
 ## A.4 Implementation Playbook
 
