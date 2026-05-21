@@ -408,7 +408,7 @@ Example human intervention table
 
 Autonomous agent systems require responsibility assignments that scale with their level of independence from human control. As agents progress from providing information only (L0) to making cross-domain decisions autonomously (L5), the distribution of accountability shifts from end users to application developers, agentic providers, and platform operators. Organizations must classify each agent's autonomy level to determine appropriate governance controls, human oversight requirements, and intervention capabilities outlined in Appendix A.1.3.2.
 
-Classifications adapted from SAE J3016 \[[19](#ref-19), [20](#ref-20), [21](#ref-21), [23](#ref-23), [24](#ref-24), [25](#ref-25), [26](#ref-26)\]
+Classifications adapted from SAE J3016 \[[19](#ref-19), [20](#ref-20), [21](#ref-21), [23](#ref-23), [24](#ref-24), [14](#ref-14), [15](#ref-15)\]
 
 | Level | Name | Human Role | Agent Authority | Example |
 | :---- | :---- | :---- | :---- | :---- |
@@ -419,7 +419,7 @@ Classifications adapted from SAE J3016 \[[19](#ref-19), [20](#ref-20), [21](#ref
 | L4 | Human-on-loop | Exception handling only | Autonomous in domain | Scheduled reports |
 | L5 | Full autonomy | Retrospective only | Cross-domain decisions | Research agents |
 
-For AI-specific adaptations of this taxonomy, see \[[23](#ref-23), [24](#ref-24)\]; for empirical data on how autonomy is granted in practice, see \[[25](#ref-25)\].  Note the CSA reference \[[24](#ref-24)\] has no specific author.
+For AI-specific adaptations of this taxonomy, see \[[23](#ref-23), [24](#ref-24)\]; for empirical data on how autonomy is granted in practice, see \[[14](#ref-14)\].  Note the CSA reference \[[24](#ref-24)\] has no specific author.
 
 **Responsibility Shift by Autonomy Level**
 
@@ -878,7 +878,7 @@ AI Governance Committee
 
 **Industry Standards Development**: Emerging industry standards can be integrated through the existing layer structure without requiring fundamental framework changes.
 
-**Enforcement and Consequence**: The SRF defines *who* is accountable and *what evidence* demonstrates that accountability has been assigned. It does not define consequences for accountability failures; enforcement mechanisms, liability assignment, and remediation obligations are the domain of applicable regulation (EU AI Act, sector-specific law), contracts, and governance policy. Organizations implementing the SRF should ensure their contractual arrangements with vendors and partners at each layer boundary address consequence and remedy, as the framework itself provides the accountability structure those contracts should reference but does not substitute for them.
+**Enforcement and Consequence**: The SRF defines *who* is accountable and *what evidence* demonstrates that accountability has been assigned. It does not define consequences for accountability failures; enforcement mechanisms, liability assignment, and remediation obligations are the domain of applicable regulation (EU AI Act \[[11](#ref-11)\], sector-specific law), contracts, and governance policy. Organizations implementing the SRF should ensure their contractual arrangements with vendors and partners at each layer boundary address consequence and remedy, as the framework itself provides the accountability structure those contracts should reference but does not substitute for them.
 
 ## A.7 Evidence Requirements
 
@@ -952,8 +952,8 @@ L4-L5 (Human-on-Loop / Full Autonomy):
 <a name="ref-11"></a>11. “Article 99: Penalties | EU Artificial Intelligence Act.” https://artificialintelligenceact.eu/article/99/  
 <a name="ref-12"></a>12. T. Lanfear, “Shared responsibility in the cloud - Microsoft Azure,” *Microsoft Learn*, Oct. 16, 2019. [https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)   
 <a name="ref-13"></a>13. M. Higgins, “Air Canada chatbot case highlights AI liability risks,” *Pinsent Masons*, Apr. 25, 2025. [Online]. Available: [https://www.pinsentmasons.com/out-law/news/air-canada-chatbot-case-highlights-ai-liability-risks](https://www.pinsentmasons.com/out-law/news/air-canada-chatbot-case-highlights-ai-liability-risks)   
-<a name="ref-14"></a>14. Wikipedia contributors, “Sydney (Microsoft),” *Wikipedia*, Sep. 23, 2025. [https://en.wikipedia.org/wiki/Sydney.(Microsoft)](https://en.wikipedia.org/wiki/Sydney_.Microsoft.)  (accessed Oct. 01, 2025).  
-<a name="ref-15"></a>15. S. Rogelberg, “Workday and Amazon’s alleged AI employment biases are among myriad ‘oddball results’ that could exacerbate hiring discrimination | Fortune,” *Fortune*, Jul. 13, 2025. [https://fortune.com/2025/07/05/workday-amazon-alleged-ai-employment-bias-hiring-discrimination/](https://fortune.com/2025/07/05/workday-amazon-alleged-ai-employment-bias-hiring-discrimination/)   
+<a name="ref-14"></a>14. Cloud Security Alliance, "Autonomy Levels for Agentic AI," CSA Blog, Jan. 28, 2026. Proposes a six-level framework explicitly modelled on SAE J3016, adapted to AI systems. [https://cloudsecurityalliance.org/blog/2026/01/28/levels-of-autonomy](https://cloudsecurityalliance.org/blog/2026/01/28/levels-of-autonomy)  
+<a name="ref-15"></a>15. Anthropic, "Measuring AI Agent Autonomy in Practice," Anthropic Research, Feb. 18, 2026. Empirical analysis of millions of real-world agent interactions across Claude Code and the public API; introduces the deployment overhang concept and documents how human oversight strategies shift with user experience. [https://www.anthropic.com/research/measuring-agent-autonomy](https://www.anthropic.com/research/measuring-agent-autonomy)
 <a name="ref-16"></a>16. V. Manral, “Generative AI: Proposed Shared Responsibility Model | CSA,” *CSA*, Jul. 28, 2023. [https://cloudsecurityalliance.org/blog/2023/07/28/generative-ai-proposed-shared-responsibility-model](https://cloudsecurityalliance.org/blog/2023/07/28/generative-ai-proposed-shared-responsibility-model)   
 <a name="ref-17"></a>17. K. Notopoulos, “A car dealership added an AI chatbot to its site. Then all hell broke loose.,” *Business Insider*, Dec. 19, 2023. [https://www.businessinsider.com/car-dealership-chevrolet-chatbot-chatgpt-pranks-chevy-2023-12?op=1](https://www.businessinsider.com/car-dealership-chevrolet-chatbot-chatgpt-pranks-chevy-2023-12?op=1)   
 <a name="ref-18"></a>18. Cosai-Oasis, “ws4-secure-design-agentic-systems/[model-context-protocol-security.md](http://model-context-protocol-security.md)  at main · cosai-oasis/ws4-secure-design-agentic-systems,” *GitHub*. [https://github.com/cosai-oasis/ws4-secure-design-agentic-systems/blob/main/model-context-protocol-security.md](https://github.com/cosai-oasis/ws4-secure-design-agentic-systems/blob/main/model-context-protocol-security.md)   
@@ -963,8 +963,6 @@ L4-L5 (Human-on-Loop / Full Autonomy):
 <a name="ref-22"></a>22. Cosai-Oasis, “secure-ai-tooling/risk-map/tables/personas-full.md at main cosai-oasis/secure-ai-tooling,” *GitHub*. [https://github.com/cosai-oasis/secure-ai-tooling/blob/main/risk-map/tables/personas-full.md](https://github.com/cosai-oasis/secure-ai-tooling/blob/main/risk-map/tables/personas-full.md)   
 <a name="ref-23"></a>23. R. Mirsky, “Artificial Intelligent Disobedience: Rethinking the agency of our artificial teammates,” *arXiv.org*, Jun. 27, 2025. [https://arxiv.org/abs/2506.22276v1](https://arxiv.org/abs/2506.22276v1)  
 <a name="ref-24"></a>24. K. J. Kevin Feng, David W. McDonald, and Amy X. Zhang, "Levels of Autonomy for AI Agents," arXiv preprint arXiv:2506.12469v2 [cs.HC], University of Washington / Knight First Amendment Institute, Jul. 2025. Published as part of the *Artificial Intelligence and Democratic Freedoms* essay series. [https://arxiv.org/abs/2506.12469](https://arxiv.org/abs/2506.12469) (canonical); [https://knightcolumbia.org/content/levels-of-autonomy-for-ai-agents-1](https://knightcolumbia.org/content/levels-of-autonomy-for-ai-agents-1) (institute publication).  
-<a name="ref-25"></a>25. Cloud Security Alliance, "Autonomy Levels for Agentic AI," CSA Blog, Jan. 28, 2026. Proposes a six-level framework explicitly modelled on SAE J3016, adapted to AI systems. [https://cloudsecurityalliance.org/blog/2026/01/28/levels-of-autonomy](https://cloudsecurityalliance.org/blog/2026/01/28/levels-of-autonomy)  
-<a name="ref-26"></a>26. Anthropic, "Measuring AI Agent Autonomy in Practice," Anthropic Research, Feb. 18, 2026. Empirical analysis of millions of real-world agent interactions across Claude Code and the public API; introduces the deployment overhang concept and documents how human oversight strategies shift with user experience. [https://www.anthropic.com/research/measuring-agent-autonomy](https://www.anthropic.com/research/measuring-agent-autonomy)
 
 # Acknowledgements
 
