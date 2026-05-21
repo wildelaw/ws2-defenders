@@ -53,7 +53,7 @@ Status: Under review by the CoSAI Project Governing Board on 19 May 2026
 
 The evolving landscape of Artificial Intelligence (AI) necessitates a refined approach to accountability within AI systems. Given the criticality of clear understanding of accountability and responsibility across shared systems - including AI systems, we introduce an expanded framework that aligns with and extends established AI Shared Responsibility Frameworks (SRF) \[[5](#ref-5),[16](#ref-16)\]. This model is designed to identify accountability across the AI ecosystem, with examples addressing industry-specific regulatory requirements and model supply chain risks.
 
-The implementation of non-trivial business-specific AI systems presents organizations with significant accountability gaps \[[1](#ref-1)\]. Incidents involving AI system failures, harm caused, or regulation violations often lead to complex scenarios where identifying the responsible parties becomes challenging due to blurred responsibility boundaries [2]. Such ambiguities both delay resolution and impede effective incident response and regulatory compliance [3, 4, 6, 7]. Emerging agentic AI systems capable of semi-autonomous operations on behalf of humans or other agents create new challenges in accountability.
+The implementation of non-trivial business-specific AI systems presents organizations with significant accountability gaps \[[1](#ref-1)\]. Incidents involving AI system failures, harm caused, or regulation violations often lead to complex scenarios where identifying the responsible parties becomes challenging due to blurred responsibility boundaries [2]. Such ambiguities both delay resolution and impede effective incident response and regulatory compliance \[[3](#ref-3), [4](#ref-4), [6](#ref-6), [7](#ref-7)\]. Emerging agentic AI systems capable of semi-autonomous operations on behalf of humans or other agents create new challenges in accountability.
 
 CoSAI uses enterprise architecture layers to address the critical issues and complexities in responsibility posed by modern AI systems. This expands on the architectural view of responsibility by adding additional layers inherent in solutions using AI.  CoSAI has added **AI Business** to the **Usage** layer to address Industry-Specific Regulatory Compliance, added **AI Information layer** to include data owners, and the **AI Model Provider** to address the Supply Chain.  While organizational structures are manifold, and personas and their roles may vary widely from one organization to another, the dependencies encoded in the enterprise architecture layers remain invariant when provisioning, building or operating AI systems. The CoSAI Shared Responsibility Framework provides a governance manual for decomposing AI system solutions into components with one accountable party.
 
@@ -93,12 +93,12 @@ AI system procurement may include the following parties:
 
 ### 2.1.2 Examples of AI regulatory impact in Industry
 
-* **Healthcare**: FDA AI/ML guidance creates new validation requirements [8] not covered by traditional cloud models, and subsequent requirements cascade down the layers. Without clear responsibility assignment, organizations cannot determine who validates model changes or documents compliance.  
-* **Financial Services**: SR 11-7 model risk management [9] applies differently to AI than traditional software, where risk also cascades down supporting layers. Ambiguous accountability makes it impossible to assign model risk ownership across the multi-vendor AI stack.  
-* **Public Sector**: NIST AI RMF requirements [10] span multiple organizational boundaries, between organizations and within each organization.The framework enables government agencies to map NIST controls to specific accountable parties across vendor relationships.  
+* **Healthcare**: FDA AI/ML guidance creates new validation requirements \[[8](#ref-8)\] not covered by traditional cloud models, and subsequent requirements cascade down the layers. Without clear responsibility assignment, organizations cannot determine who validates model changes or documents compliance.  
+* **Financial Services**: SR 11-7 model risk management \[[9](#ref-9)\] applies differently to AI than traditional software, where risk also cascades down supporting layers. Ambiguous accountability makes it impossible to assign model risk ownership across the multi-vendor AI stack.  
+* **Public Sector**: NIST AI RMF requirements \[[10](#ref-10)\] span multiple organizational boundaries, between organizations and within each organization.The framework enables government agencies to map NIST controls to specific accountable parties across vendor relationships.  
 * **Consumer Protection**:   
-  * **Airline**: In 2022, a national carrier was sued by a customer after the airline failed to honor a claim made by its chatbot that contradicted its actual bereavement policy. A Canadian court held the organization responsible, making it pay $812.02 to the customer [13].  
-  * **Car Dealership**: By negotiating with the chatbot of a car dealership to agree without seeking proper authorization, a customer manipulated the chatbot to agree to sell a 2024 Chevy Tahoe for $1 [17].  
+  * **Airline**: In 2022, a national carrier was sued by a customer after the airline failed to honor a claim made by its chatbot that contradicted its actual bereavement policy. A Canadian court held the organization responsible, making it pay $812.02 to the customer \[[13](#ref-13)\].  
+  * **Car Dealership**: By negotiating with the chatbot of a car dealership to agree without seeking proper authorization, a customer manipulated the chatbot to agree to sell a 2024 Chevy Tahoe for $1 \[[17](#ref-17)\].  
 
 ## 2.2 Use Case Example
 
@@ -124,7 +124,7 @@ Depending on the solution operating model, IaaS, PaaS, or SaaS, the solution lay
 
 ## 3.1 Personas
 
-While the Enterprise Architecture layers provide solution dependencies that indicate governance components, the heterogeneity of solutions means that the persona for a given activity may vary from solution to solution. The framework recognizes areas of responsibility, aligned with the eight CoSAI-RM Personas [22]:
+While the Enterprise Architecture layers provide solution dependencies that indicate governance components, the heterogeneity of solutions means that the persona for a given activity may vary from solution to solution. The framework recognizes areas of responsibility, aligned with the eight CoSAI-RM Personas \[[22](#ref-22)\]:
 
 ### 3.1.1 Agentic Platform and Framework Providers
 
@@ -253,7 +253,7 @@ By clearly defining responsibilities across distinct personas this framework fac
 
 ## A.1 Responsibility Domains and Five-Layer Framework
 
-**Existing Cloud SRM 3-layer models [5,12,16] (what CoSAI adds)**
+**Existing Cloud SRM 3-layer models \[[5](#ref-5), [12](#ref-12), [16](#ref-16)\] (what CoSAI adds)**
 
 | Capability | 3-Layer (Existing) | 5-Layer (CoSAI) |
 | :---- | :---- | :---- |
@@ -286,7 +286,7 @@ The framework uses semantic versioning. Minor versions (1.x) add components; maj
 
 ### A.1.2 AI Information
 
-Enhanced from existing three layer models [5,12,16] to include agentic systems
+Enhanced from existing three layer models \[[5](#ref-5), [12](#ref-12), [16](#ref-16)\] to include agentic systems
 
 **Scope**: How AI capabilities are consumed by end users, including emerging autonomous agent systems.
 
@@ -354,7 +354,7 @@ Scope: Individual and departmental consumption of AI services (ChatGPT, Gemini, 
 
 ### A.1.3 AI Application
 
-Expanded from existing three layer models [5,12,16] to include agentic applications
+Expanded from existing three layer models \[[5](#ref-5), [12](#ref-12), [16](#ref-16)\] to include agentic applications
 
 **Scope**: Applications and services that integrate AI capabilities, from traditional AI-enhanced applications to full agentic systems.
 
@@ -386,7 +386,7 @@ Expanded from existing three layer models [5,12,16] to include agentic applicati
 * Human override events  
 * Boundary violation attempts
 
-For a comprehensive threat model covering agentic system security risks, including tool poisoning, credential theft, and confused deputy attacks, see the CoSAI WS4 MCP Security Paper [18]. The responsibility assignments in this section should be evaluated against the threat categories identified in that paper to ensure coverage across the full attack surface.
+For a comprehensive threat model covering agentic system security risks, including tool poisoning, credential theft, and confused deputy attacks, see the CoSAI WS4 MCP Security Paper \[[18](#ref-18)\]. The responsibility assignments in this section should be evaluated against the threat categories identified in that paper to ensure coverage across the full attack surface.
 
 **Human Override Capabilities:**
 
@@ -408,7 +408,7 @@ Example human intervention table
 
 Autonomous agent systems require responsibility assignments that scale with their level of independence from human control. As agents progress from providing information only (L0) to making cross-domain decisions autonomously (L5), the distribution of accountability shifts from end users to application developers, agentic providers, and platform operators. Organizations must classify each agent's autonomy level to determine appropriate governance controls, human oversight requirements, and intervention capabilities outlined in Appendix A.1.3.2.
 
-Classifications adapted from SAE J3016 [19, 20, 21, 23, 24, 25, 26]
+Classifications adapted from SAE J3016 \[[19](#ref-19), [20](#ref-20), [21](#ref-21), [23](#ref-23), [24](#ref-24), [25](#ref-25), [26](#ref-26)\]
 
 | Level | Name | Human Role | Agent Authority | Example |
 | :---- | :---- | :---- | :---- | :---- |
@@ -419,7 +419,7 @@ Classifications adapted from SAE J3016 [19, 20, 21, 23, 24, 25, 26]
 | L4 | Human-on-loop | Exception handling only | Autonomous in domain | Scheduled reports |
 | L5 | Full autonomy | Retrospective only | Cross-domain decisions | Research agents |
 
-For AI-specific adaptations of this taxonomy, see [23][24]; for empirical data on how autonomy is granted in practice, see [25].  Note the CSA reference [24] has no specific author.
+For AI-specific adaptations of this taxonomy, see \[[23](#ref-23), [24](#ref-24)\]; for empirical data on how autonomy is granted in practice, see \[[25](#ref-25)\].  Note the CSA reference \[[24](#ref-24)\] has no specific author.
 
 **Responsibility Shift by Autonomy Level**
 
@@ -435,7 +435,7 @@ Organizations deploying agents at L3 or above should document their autonomy cla
 
 ### A.1.4 AI Platform
 
-Enhanced from existing three layer models [5,12,16] with agentic runtime considerations
+Enhanced from existing three layer models \[[5](#ref-5), [12](#ref-12), [16](#ref-16)\] with agentic runtime considerations
 
 **Scope**: Platform services that provide AI capabilities through APIs, including model serving, fine-tuning, and inference.
 
@@ -746,8 +746,14 @@ I.e. the person or data steward responsible for the [‘state’ of the inputs](
 
 **Assessment Template**:
 
-| Layer: [1-5] Current State: [Description]  Gap Severity: [High/Medium/Low]  Primary Responsible Party: [Stakeholder]  Remediation Timeline: [Days]  Dependencies: [Other layers/stakeholders]  |
-| :---- |
+```
+Layer: [1-5]
+  Current State: [Description]
+  Gap Severity: [High/Medium/Low]
+  Primary Responsible Party: [Stakeholder]
+  Remediation Timeline: [Days]
+  Dependencies: [Other layers/stakeholders]
+```
 
 #### Week 3-4: Framework Customization
 
@@ -773,8 +779,15 @@ I.e. the person or data steward responsible for the [‘state’ of the inputs](
 
 **Governance Structure Template**:
 
-| AI Governance Committee  ├── Executive Sponsor (accountability)  ├── Layer 1 Lead (compliance/legal)  ├── Layer 2 Lead (operations/security)  ├── Layer 3 Lead (applications/development)  ├── Layer 4 Lead (platform/infrastructure)  └── Layer 5 Lead (vendor management) |
-| :---- |
+```
+AI Governance Committee
+  ├── Executive Sponsor (accountability)
+  ├── Layer 1 Lead (compliance/legal)
+  ├── Layer 2 Lead (operations/security)
+  ├── Layer 3 Lead (applications/development)
+  ├── Layer 4 Lead (platform/infrastructure)
+  └── Layer 5 Lead (vendor management)
+```
 
 #### Month 2: Control Implementation
 
@@ -962,7 +975,7 @@ L4-L5 (Human-on-Loop / Full Autonomy):
 
 **Contributors:**
 
-* Bill Stout, ServiceNow ([bill.stout@servicenow.com](mailto:bill.stout@servicenow.com))*†*  
+* Bill Stout ([billbrietstout@gmail.com](mailto:billbrietstout@gmail.com))*†*  
 * Doyin Awofodu ([doyin@fragilistic.ai](mailto:doyin@fragilistic.ai))*†*  
 * Christopher Lawson ([clawson@lawsonsoft.com](mailto:clawson@lawsonsoft.com))*†*  
 * Anton Chuvakin ([anton@chuvakin.org](mailto:anton@chuvakin.org))   
@@ -975,7 +988,7 @@ L4-L5 (Human-on-Loop / Full Autonomy):
 
 **Editors:** 
 
-* Bill Stout, ServiceNow ([bill.stout@servicenow.com](mailto:bill.stout@servicenow.com))  
+* Bill Stout ([billbrietstout@gmail.com](mailto:billbrietstout@gmail.com))  
 * Doyin Awofodu ([doyin@fragilistic.ai](mailto:doyin@fragilistic.ai))  
 * Christopher Lawson ([clawson@lawsonsoft.com](mailto:clawson@lawsonsoft.com))  
 
