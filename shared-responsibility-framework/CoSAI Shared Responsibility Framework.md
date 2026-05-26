@@ -1,8 +1,8 @@
-# AI Shared Responsibility Framework, V1.0 (RC)
+# AI Shared Responsibility Framework, V1.0
 
-OASIS Open Project : [Coalition for Secure AI (CoSAI)](https://github.com/cosai-oasis) [Workstream 2: AI Shared Responsibility Framework](https://github.com/cosai-oasis/ws2-defenders)
+OASIS Open Project : [Coalition for Secure AI (CoSAI)](https://github.com/cosai-oasis) [Workstream 2: AI Shared Responsibility Framework](https://github.com/cosai-oasis/ws2-defenders/tree/main/shared-responsibility-framework)
 
-Status: Under review by the CoSAI Project Governing Board on 19 May 2026
+Approved by the CoSAI Project Governing Board on 26 May 2026
 
 
 **Table of Contents**
@@ -1027,7 +1027,7 @@ CoSAI is an OASIS Open Project, bringing together an open ecosystem of AI and se
 * Iterative refinement: The use of AI systems in drafting standards should be seen as an iterative process, with the generated content serving as a starting point for further refinement and improvement by human experts. Multiple rounds of review and editing may be necessary to ensure the final standards meet the required quality and reliability thresholds.
 
 ## Disclaimer
-The views represented in this paper do not necessarily represent the views of all CoSAI members, including reviewers and their organizations.
+The views represented in this paper do not necessarily represent the views of all CoSAI members, including reviewers and their organizations. This paper was approved for publication by the CoSAI Project Governing Board.
 
 ## Copyright Notice
 
@@ -1037,6 +1037,6 @@ This document and translations of it may be copied and furnished to others, and 
 
 This is a Non-Standards Track Work Product. The patent provisions of the OASIS IPR Policy do not apply.
 
-DD Month 2026 3 Non-Standards Track Copyright © OASIS Open 2026. All Rights Reserved. 
+26 May 2026 Non-Standards Track Copyright © OASIS Open 2026. All Rights Reserved. 
 
 This document was last revised or approved by the CoSAI Open Project on the above date. 
