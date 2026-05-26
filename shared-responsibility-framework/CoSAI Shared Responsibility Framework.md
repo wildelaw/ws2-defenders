@@ -79,7 +79,7 @@ Ambiguous ownership is a growing liability for AI system deployments. These pain
 * **Regulatory compliance**: Demonstrating adherence to AI-specific mandates, such as data governance, bias testing, or model validation, fails instantly when organizations cannot map specific controls to designated owners across the value chain.  
 * **Shadow AI proliferation:** Unsanctioned AI usage thrives in the gray areas between IT security, business units, and external vendors. Left unassigned, no single group monitors for rogue usage or owns the risk of sensitive data exposure.
 
-CoSAI’s five-layer framework addresses these pain points by establishing exactly a clear accountable party for each component across the full AI system.
+CoSAI's five-layer framework addresses these pain points by establishing exactly a clear accountable party for each component across the full AI system.
 
 ### 2.1.1 Vendor Management Complexity
 
@@ -115,12 +115,12 @@ The SRF is primarily an accountability framework, it answers *who* is responsibl
 
 There should be exactly one accountable party per component to prevent overlaps.  Specific Security & Governance requirements cascade  from the Business layer to the supporting layers. The layers illustrate areas of responsibility where personas reflect types of actors who are accountable. For additional detail on the Cloud SRM, consult **Appendix A1**.
 
-Depending on the solution operating model, IaaS, PaaS, or SaaS, the solution layers and their components will be provided by different entities, understanding which is key to assigning responsibility.  Enterprise solutions are unlikely to be monolithically operating within one model, so defining the operating model for AI system components may be necessary.  Responsibility is shared between customers and providers at the boundary of what is being provided, and the enterprise architecture layers indicate governance activities mandated to personas responsible for that solution layer.  The CoSAI Shared Responsibility Framework answers “Who is responsible, internally and externally, for issues with AI systems?” 
+Depending on the solution operating model, IaaS, PaaS, or SaaS, the solution layers and their components will be provided by different entities, understanding which is key to assigning responsibility.  Enterprise solutions are unlikely to be monolithically operating within one model, so defining the operating model for AI system components may be necessary.  Responsibility is shared between customers and providers at the boundary of what is being provided, and the enterprise architecture layers indicate governance activities mandated to personas responsible for that solution layer.  The CoSAI Shared Responsibility Framework answers "Who is responsible, internally and externally, for issues with AI systems?"
 
 | Principle:  *There should be exactly one accountable party per activity to prevent overlaps.* |
 | :---: |
 
-![A matrix detailing AI Shared Responsibility across five functional layers and three service models IaaS, PaaS, and SaaS. The matrix uses color coding to show the ownership of each function: Provider, Shared, Customer, or Model Dependent. The structure reveals how responsibility is allocated across the stack. As the service matures and moves from Infrastructure-as-a-Service to Software-as-a-Service, the Provider takes on increasing responsibility for managing the complex technological stack. However, the matrix shows that critical, non-technical ownership—specifically Business Strategy, Data Governance, and the ultimate definition of the use case—remains consistently with the Customer, regardless of the service model utilized.](/shared-responsibility-framework/images/srf-img-v1.png)
+![A matrix detailing AI Shared Responsibility across five functional layers and three service models IaaS, PaaS, and SaaS. The matrix uses color coding to show the ownership of each function: Provider, Shared, Customer, or Model Dependent. The structure reveals how responsibility is allocated across the stack. As the service matures and moves from Infrastructure-as-a-Service to Software-as-a-Service, the Provider takes on increasing responsibility for managing the complex technological stack. However, the matrix shows that critical, non-technical ownership-specifically Business Strategy, Data Governance, and the ultimate definition of the use case-remains consistently with the Customer, regardless of the service model utilized.](/shared-responsibility-framework/images/srf-img-v1.png)
 
 ## 3.1 Personas
 
@@ -129,7 +129,7 @@ While the Enterprise Architecture layers provide solution dependencies that indi
 ### 3.1.1 Agentic Platform and Framework Providers
 
 * **Description**: Actors that provide the development environments, software frameworks, and orchestration runtimes required to implement agentic reasoning, planning, and tool execution.  
-* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.5 — AI Partner (tool and framework provider)  
+* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.5 - AI Partner (tool and framework provider)  
 * **AI SRF Layers**: AI Application, AI Platform  
 * **Responsibilities**:  
   * Ensuring framework security and sandboxing.  
@@ -141,7 +141,7 @@ While the Enterprise Architecture layers provide solution dependencies that indi
 ### 3.1.2 Application Developer
 
 * **Description**: Actors that integrate AI models (via APIs or embedded models) into applications, products, or services. They may consume models without modifying them, or perform light customization (prompt engineering, RAG, etc.).  
-* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.2 — AI Provider (deploys AI system for use by end users); also acts as AI Customer (§5.19.4) with respect to upstream model and platform providers  
+* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.2 - AI Provider (deploys AI system for use by end users); also acts as AI Customer (§5.19.4) with respect to upstream model and platform providers  
 * **AI SRF Layer**: AI Application  
 * **Responsibilities**:  
   * Implementing application-level security controls.  
@@ -152,7 +152,7 @@ While the Enterprise Architecture layers provide solution dependencies that indi
 ### 3.1.3 Data Provider
 
 * **Description**: Actors that supply training data, evaluation datasets, or inference data to model providers or application developers. This includes data aggregators, data marketplaces, and those licensing datasets.  
-* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.5 — AI Partner (data provider)  
+* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.5 - AI Partner (data provider)  
 * **AI SRF Layer**: AI Information  
 * **Responsibilities**:  
   * Conducting data quality assurance.  
@@ -163,7 +163,7 @@ While the Enterprise Architecture layers provide solution dependencies that indi
 ### 3.1.4 AI System Users
 
 * **Description**: Actors that use AI-powered applications or services without developing or deploying the AI components themselves. Users rely on application developers and providers for AI security controls.  
-* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.4 — AI Customer (end user sub-role)  
+* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.4 - AI Customer (end user sub-role)  
 * **AI SRF Layer**: AI Usage & Business  
 * **Responsibilities**:  
   * Adhering to appropriate use policies.  
@@ -173,7 +173,7 @@ While the Enterprise Architecture layers provide solution dependencies that indi
 ### 3.1.5 AI System Governance
 
 * **Description**: Actors responsible for defining security control objectives, measuring implementations, and enforcing compliance for AI systems across the AI system lifecycle. This includes AI risk officers, compliance teams, and governance boards.  
-* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.4 — AI Customer (acquires and governs AI systems on behalf of the organization); where governance extends to enforcing regulatory obligations, also maps to Relevant Authority (§5.19.7)  
+* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.4 - AI Customer (acquires and governs AI systems on behalf of the organization); where governance extends to enforcing regulatory obligations, also maps to Relevant Authority (§5.19.7)  
 * **AI SRF Layer**: AI Usage & Business  
 * **Responsibilities**:  
   * Establish security and governance rules that all AI systems must follow, including acceptable risk levels based on system importance.  
@@ -185,7 +185,7 @@ While the Enterprise Architecture layers provide solution dependencies that indi
 ### 3.1.6 Model Provider
 
 * **Description**: Actors that develop, train, evaluate, and tune AI/ML models (foundation models, specialized models, or domain-adapted models). This includes those that develop models from scratch or significantly modify existing models for distribution..  
-* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.3 — AI Producer (develops, trains, and validates AI models for distribution)  
+* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.3 - AI Producer (develops, trains, and validates AI models for distribution)  
 * **AI SRF Layer**: AI Model Provider  
 * **Responsibilities**:  
   * Secure and responsible model architecture design and training.  
@@ -196,7 +196,7 @@ While the Enterprise Architecture layers provide solution dependencies that indi
 ### 3.1.7 AI Model Serving
 
 * **Description**: The entity responsible for provisioning, managing, and securing the runtime environment that serves AI and ML model predictions at scale. This persona covers all model types, including classical ML, statistical, optimization, and generative AI models, focusing on the secure execution of predictions, ensuring runtime integrity, confidentiality, and availability of data and outputs. It separates its duties from model training, tuning, or registry storage (Model Provider) and physical infrastructure management (AI Platform Provider), focusing on the secure orchestration and delivery of the model serving application layer.  
-* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.5 — AI Partner (platform and runtime services provider); distinct from the infrastructure provider sub-role in that this persona focuses on model serving orchestration, not physical compute  
+* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.5 - AI Partner (platform and runtime services provider); distinct from the infrastructure provider sub-role in that this persona focuses on model serving orchestration, not physical compute  
 * **AI SRF Layers**: AI Platform  
 * **Responsibilities**:  
   * Manage secure API endpoints, enforce access policies, and perform rigorous input validation.  
@@ -208,7 +208,7 @@ While the Enterprise Architecture layers provide solution dependencies that indi
 ### 3.1.8 AI Platform Provider
 
 * **Description**: Actors that provide infrastructure, compute resources, APIs, and platform services for AI model hosting, training, or inference. This includes internal infrastructure teams, cloud providers (AWS, Azure, GCP), MLOps platforms, and model API services.  
-* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.5 — AI Partner (infrastructure provider); also acts as AI Provider (§5.19.2) where the platform is deployed to serve application developers as its customers  
+* **Standards Mapping**: ISO/IEC 22989:2022 §5.19.5 - AI Partner (infrastructure provider); also acts as AI Provider (§5.19.2) where the platform is deployed to serve application developers as its customers  
 * **AI SRF Layers**: AI Platform  
 * **Responsibilities**:  
   * Secure infrastructure against unauthorized access and maintain high availability.  
@@ -659,7 +659,7 @@ Platform providers hosting agent runtime environments should also consider the s
 Below are examples for applying the five-layer AI shared responsibility framework document as system instruction, and example prompts for generating documentation for specific use cases.  
 **Example: System instruction**
 
-| *You are an AI governance expert using the CoSAI Five-Layer AI Shared Responsibility Framework (AI SRF) as defined in the attached document "CoSAI Shared Responsibility Framework 2026.pdf" Framework Application: `Apply the five-layer structure (AI Business & Usage → AI Information → AI Application → AI Platform → AI Model Provider) to all scenarios` Assign RACI responsibilities with exactly one accountable party per component Trace requirements downward from business/regulatory needs through technical layers For agentic systems, address autonomy levels (L0-L5) and intervention tiers (T1-T5) Output Format: Scenario Summary Layer Analysis (cite framework sections) Responsibility Matrix (RACI by component) Gaps & Risks Recommendations Evidence Requirements (per Appendix A.7) Key Principles: Never leave accountability ambiguous Ground all analysis in framework definitions and matrices Consider both normal operations and incident response Flag vendor contract misalignments  *  |
+| *You are an AI governance expert using the CoSAI Five-Layer AI Shared Responsibility Framework (AI SRF) as defined in the attached document "CoSAI Shared Responsibility Framework 2026.pdf" Framework Application: `Apply the five-layer structure (AI Business & Usage - AI Information - AI Application - AI Platform - AI Model Provider) to all scenarios` Assign RACI responsibilities with exactly one accountable party per component Trace requirements downward from business/regulatory needs through technical layers For agentic systems, address autonomy levels (L0-L5) and intervention tiers (T1-T5) Output Format: Scenario Summary Layer Analysis (cite framework sections) Responsibility Matrix (RACI by component) Gaps & Risks Recommendations Evidence Requirements (per Appendix A.7) Key Principles: Never leave accountability ambiguous Ground all analysis in framework definitions and matrices Consider both normal operations and incident response Flag vendor contract misalignments  *  |
 | :---- |
 
 ### A.3.1 Supply Chain - Third-Party Model Risks
@@ -698,7 +698,7 @@ The following prompt responsibility framework based on this AI SRF, highlighting
 
 I.e. the person or data steward responsible for the [‘state’ of the inputs](https://github.com/rabbidave/secure-ai-tooling/blob/main/risk-map/docs/artifact-integrity-maturity-pattern.md#artifact-integrity-maturity-model)
 
-![Figure depicting the Prompt Responsibility Model (CoSAl Five-Layer Framework), which maps accountability for prompt generation across three service architectures: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). The diagram shows six distinct layers—Actor, Application, Agentic Layer, LLM Platform, Infrastructure, and Model—illustrating the increasing level of abstraction and system responsibility from underlying infrastructure components (IaaS) to end-user functionality (SaaS).](/shared-responsibility-framework/images/srf-p-img-v1.png)
+![Figure depicting the Prompt Responsibility Model (CoSAl Five-Layer Framework), which maps accountability for prompt generation across three service architectures: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). The diagram shows six distinct layers-Actor, Application, Agentic Layer, LLM Platform, Infrastructure, and Model-illustrating the increasing level of abstraction and system responsibility from underlying infrastructure components (IaaS) to end-user functionality (SaaS).](/shared-responsibility-framework/images/srf-p-img-v1.png)
 
 **Prompt Type Accountability Matrix**
 
@@ -707,9 +707,9 @@ I.e. the person or data steward responsible for the [‘state’ of the inputs](
 | **User Input** (raw query/data) | Customer | Customer | Customer |
 | **System Prompt** (instructions, persona) | Customer | Customer | AI App Developer |
 | **RAG Context** (retrieved documents) | Customer | Shared | AI App Developer |
-| **🆕 Agent Planning Prompts** | Customer | Agentic Provider | AI App Developer |
-| **🆕 Tool-Calling Prompts** | Customer | Agentic Provider | AI App Developer |
-| **🆕 Multi-Step Orchestration** | Customer | Agentic Provider | AI App Developer |
+| **Agent Planning Prompts** | Customer | Agentic Provider | AI App Developer |
+| **Tool-Calling Prompts** | Customer | Agentic Provider | AI App Developer |
+| **Multi-Step Orchestration** | Customer | Agentic Provider | AI App Developer |
 | **Model Safety Prompts** (built-in guardrails) | Model Provider | Model Provider | Model Provider |
 
 ## A.4 Implementation Playbook
@@ -781,12 +781,12 @@ Layer: [1-5]
 
 ```
 AI Governance Committee
-  ├── Executive Sponsor (accountability)
-  ├── Layer 1 Lead (compliance/legal)
-  ├── Layer 2 Lead (operations/security)
-  ├── Layer 3 Lead (applications/development)
-  ├── Layer 4 Lead (platform/infrastructure)
-  └── Layer 5 Lead (vendor management)
+  - Executive Sponsor (accountability)
+  - Layer 1 Lead (compliance/legal)
+  - Layer 2 Lead (operations/security)
+  - Layer 3 Lead (applications/development)
+  - Layer 4 Lead (platform/infrastructure)
+  - Layer 5 Lead (vendor management)
 ```
 
 #### Month 2: Control Implementation
